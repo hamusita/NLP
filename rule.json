@@ -1,0 +1,17 @@
+{
+    "dict":{
+        "a":"det",
+        "broke":"v",
+        "the":"det",
+        "boy":"n",
+        "with":"prep",
+        "desk":"n",
+        "drawer":"n"
+    },
+    "gram":{
+        "S":[["NP", "VP"]],
+        "NP":[["det", "n"], ["NP", "PP"]],
+        "VP":[["v", "NP"], ["VP", "PP"]],
+        "PP":[["prep", "NP"]]
+    }
+}
